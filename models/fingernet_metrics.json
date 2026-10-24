@@ -1,0 +1,166 @@
+{
+  "fingernet": {
+    "count_accuracy": 0.9843,
+    "finger_accuracy": {
+      "thumb": 0.9908,
+      "index": 0.9943,
+      "middle": 0.9966,
+      "ring": 0.9981,
+      "pinky": 0.9964
+    },
+    "count_accuracy_by_gesture": {
+      "fist": 0.9943,
+      "one": 0.9836,
+      "little_finger": 0.9925,
+      "like": 0.9933,
+      "dislike": 0.9891,
+      "peace": 0.9945,
+      "peace_inverted": 0.9949,
+      "two_up": 0.9941,
+      "two_up_inverted": 0.9911,
+      "call": 0.9714,
+      "thumb_index": 0.9921,
+      "thumb_index2": 0.9662,
+      "rock": 0.925,
+      "three": 0.9879,
+      "three2": 0.9958,
+      "three3": 0.9916,
+      "three_gun": 0.9871,
+      "ok": 0.9661,
+      "four": 0.9968,
+      "palm": 0.9946
+    },
+    "count_confusion": [
+      [
+        4849,
+        23,
+        3,
+        0,
+        2,
+        0
+      ],
+      [
+        85,
+        19528,
+        101,
+        9,
+        7,
+        3
+      ],
+      [
+        86,
+        407,
+        42723,
+        427,
+        46,
+        18
+      ],
+      [
+        3,
+        7,
+        99,
+        24511,
+        226,
+        21
+      ],
+      [
+        0,
+        0,
+        5,
+        5,
+        4953,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        27,
+        4964
+      ]
+    ]
+  },
+  "rules": {
+    "count_accuracy": 0.8301,
+    "finger_accuracy": {
+      "thumb": 0.8376,
+      "index": 0.989,
+      "middle": 0.9951,
+      "ring": 0.9949,
+      "pinky": 0.9917
+    },
+    "count_accuracy_by_gesture": {
+      "fist": 0.9375,
+      "one": 0.9199,
+      "little_finger": 0.9398,
+      "like": 0.9798,
+      "dislike": 0.9755,
+      "peace": 0.7563,
+      "peace_inverted": 0.7416,
+      "two_up": 0.8677,
+      "two_up_inverted": 0.6883,
+      "call": 0.752,
+      "thumb_index": 0.9861,
+      "thumb_index2": 0.9621,
+      "rock": 0.8388,
+      "three": 0.4918,
+      "three2": 0.8785,
+      "three3": 0.8458,
+      "three_gun": 0.9746,
+      "ok": 0.3504,
+      "four": 0.7498,
+      "palm": 0.8593
+    },
+    "count_confusion": [
+      [
+        4572,
+        290,
+        9,
+        1,
+        2,
+        3
+      ],
+      [
+        151,
+        18820,
+        688,
+        21,
+        21,
+        32
+      ],
+      [
+        65,
+        1388,
+        36602,
+        5407,
+        117,
+        128
+      ],
+      [
+        1,
+        8,
+        655,
+        17606,
+        6158,
+        439
+      ],
+      [
+        0,
+        0,
+        3,
+        4,
+        3726,
+        1236
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        702,
+        4289
+      ]
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Downloaded / generated data (see README to rebuild)
+data/
+models/hand_landmarker.task

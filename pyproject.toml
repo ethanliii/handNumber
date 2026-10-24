@@ -1,0 +1,29 @@
+[project]
+name = "handnumber"
+version = "0.1.0"
+description = "Count the fingers you hold up to your webcam"
+authors = [
+    { name = "Ethan Li", email = "liethan@stanford.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mediapipe>=1.1.1",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "torch>=2.14.1",
+]
+
+[project.scripts]
+handnumber = "handnumber.app:main"
+handnumber-train = "handnumber.train:main"
+handnumber-eval = "handnumber.evaluate:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
